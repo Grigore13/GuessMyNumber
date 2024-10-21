@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+body {
+  font-family: "Lilita One", sans-serif;
+  background: linear-gradient(to right, #abc4eb, #186bf0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border: 2px solid greenyellow;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secretNumber {
+  text-align: center;
+  font-size: 35px;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+.check {
+  border-radius: 10px;
+  font-size: 20px;
+}
+.again {
+  border-radius: 10px;
+  font-size: 20px;
+}
+.check:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+.again:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
