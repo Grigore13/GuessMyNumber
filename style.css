@@ -23,21 +23,16 @@ body {
 h1 {
   text-align: center;
 }
-.check {
+.check,
+.again{
   border-radius: 10px;
   font-size: 20px;
 }
-.again {
-  border-radius: 10px;
-  font-size: 20px;
-}
-.check:hover {
+
+.check:hover ,
+.again:hover{
   cursor: pointer;
   color: white;
   background-color: black;
 }
-.again:hover {
-  cursor: pointer;
-  color: white;
-  background-color: black;
-}
+
